@@ -10,7 +10,7 @@ steps:
   image: plugins/docker:linux-arm64
   settings:
     repo: h3rj4n/imageproxy
-    dockerfile: Dockerfile.arrm64v8
+    dockerfile: Dockerfile.arm64v8
     tags:
       - latest
       - '0.7.0'
