@@ -13,7 +13,7 @@ steps:
     dockerfile: Dockerfile.arm64v8
     tags:
       - latest
-      - '0.7.0'
+      - '0.9.0'
     username:
       from_secret: docker_username
     password:
